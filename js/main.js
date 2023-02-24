@@ -36,3 +36,17 @@ for (; i <= 100; i++) {
 
 };
 
+const infoDom =  document.querySelector('.info');
+const pageInfo = document.querySelector('.pageInfo');
+infoDom.addEventListener('click',
+function(){
+    pageInfo.classList.remove('dnone');
+});
+
+
+
+const closeDom =  document.querySelector('.close');
+closeDom.addEventListener('click',
+function(){
+    pageInfo.classList.add('dnone');
+})
