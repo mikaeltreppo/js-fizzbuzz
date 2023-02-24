@@ -25,13 +25,13 @@ h1 {
         transform: translate(200px);
     }
     16%{
-       transform: translate(-200px);
+       transform: translate(-100px);
     }
     24%{
         transform: translate(100px);
     }
     32%{
-        transform: translate(-100px);
+        transform: translate(-50px);
     }
     40%{
         transform: translate(50px);
