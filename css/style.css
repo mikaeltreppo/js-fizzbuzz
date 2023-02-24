@@ -15,6 +15,53 @@ h1 {
     color: white;
     font-size: 70px;
     margin: 30px;
+    animation: scritta 1s ;
+}
+@keyframes scritta {
+    0%{
+        transform: translate(0);
+    }
+    8%{
+        transform: translate(200px);
+    }
+    16%{
+       transform: translate(-200px);
+    }
+    24%{
+        transform: translate(100px);
+    }
+    32%{
+        transform: translate(-100px);
+    }
+    40%{
+        transform: translate(50px);
+    }
+    48%{
+        transform: translate(-40px);
+    }
+    56%{
+        transform: translate(40px); 
+    }
+    64%{
+        transform: translate(-30px);
+    }
+    72%{
+        transform: translate(30px);
+    }
+    80%{
+        transform: translate(-20px);
+    }
+    88%{
+        transform: translate(20px);
+    }
+    96%{
+        transform: translate(-10px);
+    }
+ 
+    to{
+       transform: translate(0);
+    }
+    
 }
 
 .container {
