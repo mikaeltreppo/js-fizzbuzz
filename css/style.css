@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+
+}
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    background-color: aqua;
+}
