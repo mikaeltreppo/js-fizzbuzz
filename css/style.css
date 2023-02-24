@@ -57,7 +57,6 @@ h1 {
     96%{
         transform: translate(-10px);
     }
- 
     to{
        transform: translate(0);
     }
@@ -119,4 +118,13 @@ h1 {
       filter: opacity(1);
     }
     
+}
+.fizz:hover{
+    color: rgb(255, 209, 102); ;
+}
+.buzz:hover{
+    color: rgb(11, 214, 160) ;
+}
+.dom:hover{
+    color:  rgb(240, 70, 111);;
 }
